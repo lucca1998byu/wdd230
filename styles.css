@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+    max-width: 500px;
+    margin: auto;
+}
+
+.headd{
+    display: grid;
+    background-image: linear-gradient(to right , yellow, red);
+    text-align: left;
+    border-radius: 10px;
+    grid-template-columns: 150px auto ;
+}
+
+.headd img{
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 20px;
+}
+.headd h2{
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+footer.headd{
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+li {
+    padding:7px;
+}
+li a{
+    padding:5px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    height: 20px;
+
+}
+a:hover{
+    background-color: blue;
+    color: white;
+}
+h2, p, a, ul, li{
+    color: black;
+    font-family: Apple Chancery, cursive;
+    padding-left: 10px;
+}
